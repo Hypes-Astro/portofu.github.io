@@ -134,11 +134,8 @@ section {
         padding-top: 50px;
     }
     .banner img {
-        width: 100px;
-        border-radius: 10px;
-        box-shadow: 0 3px 5px #ddd;
-        margin-bottom: 10px;
-        float:left;
+        width: 400px;
+       padding-left: 50px;
     }
 }
 
