@@ -7,7 +7,7 @@
 
 header{
     height: 100px;
-    background-color: #3F0071;
+    background-color: #0F2C67;
     
 }
 header h1{
@@ -74,7 +74,7 @@ a{
     bottom: 0;
     left: -300px;
     width: 300px;
-    background-color:#610094 ;
+    background-color:#123986 ;
     transition: 0.5s;
     opacity: 0.8;
 }
@@ -97,12 +97,41 @@ a{
     left: 0;
     top:100px;
 }
+
+.banner {
+	background-color: #F4E185;
+	padding:150px 0;
+}
+section {
+	padding:50px 0;
+}
+.banner h2, .banner p {
+	color: black;
+    float: left;
+    text-align:left ;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.banner h2{
+    padding-top: 100px;
+}
+.banner img {
+	width: 500px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #ddd;
+	margin-bottom: 10px;
+    float:left;
+}
+
 @media(max-width: 768px){
     .mobile-menu{
         display: block;
     }
     header ul{
         display: none;
+    }
+    .banner h2{
+        padding-top: 50px;
     }
 }
 
